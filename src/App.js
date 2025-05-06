@@ -8,6 +8,8 @@ import ArrayMethods from "./ReactES6/ArrayMethods";
 import Modules from "./ReactES6/Modules";
 import Props from "./Components/Props";
 import ParentProp from "./Props/ParentProp";
+import Events from "./Components/Events";
+import Key from "./Components/key";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <Modules/>
       <Props brand="Ford"/>
       <ParentProp/>
+      <Events/>
+      <Key/>
     </>
   );
 }
