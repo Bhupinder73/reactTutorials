@@ -13,6 +13,7 @@ const Jsx = () => {
         <li>Jsx allow us to write html inside the JavaScript Code.</li>
         <li>Jsx determines how the UI will look whenever the component is used.</li>
       </ol>
+      <p>JSX allow us to write HTML elements in JavaScript and place them in the DOM without any createElement() and/or appendChild() methods.</p>
       <p>Edition by {myName} {num}</p>
     </>
   )
