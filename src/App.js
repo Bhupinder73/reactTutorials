@@ -10,6 +10,7 @@ import Props from "./Components/Props";
 import ParentProp from "./Props/ParentProp";
 import Events from "./Components/Events";
 import Key from "./Components/key";
+import Styles from "./Styles/Styles";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <ParentProp/>
       <Events/>
       <Key/>
+      <Styles/>
     </>
   );
 }

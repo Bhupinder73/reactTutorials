@@ -1,0 +1,10 @@
+.styleList{
+    display: flex;
+    list-style:none;
+    gap: 10px;
+}
+.styleList li{
+    border: 1px solid brown;
+    padding: 0px 5px;
+    border-radius: 3px;
+}
