@@ -11,6 +11,7 @@ import ParentProp from "./Props/ParentProp";
 import Events from "./Components/Events";
 import Key from "./Components/key";
 import Styles from "./Styles/Styles";
+import UseState from "./Hooks/UseState";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Events/>
       <Key/>
       <Styles/>
+      <UseState/>
     </>
   );
 }
