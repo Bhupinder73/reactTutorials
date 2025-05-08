@@ -12,6 +12,7 @@ import Events from "./Components/Events";
 import Key from "./Components/key";
 import Styles from "./Styles/Styles";
 import UseState from "./Hooks/UseState";
+import UseEffect from "./Hooks/UseEffect";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
       <Key/>
       <Styles/>
       <UseState/>
+      <UseEffect/>
     </>
   );
 }
